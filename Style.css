@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+h1 , h3 {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    color: #4c46a8;
+    margin-bottom: 0;
+}
+h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #c82e2e;
+}          
+
+body {
+    margin: 0;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.image-container {
+    height: 500px;
+    background-color: transparent;
+    background-image: url(https://www.montebianco.com/media/pmvczZSbXW4aehdJZaaCP37Jsf1DKrvY.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw;
+    background-position: 100%;            
+}    
+
+a {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+}
+
+h6 {
+    padding: 22px;
+    margin-bottom: 0px;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(25deg, #c63328, #a3abd9);
+}
+
+.l-correlati{
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom: 1px solid #dfdfdf;            
+}
+
+ul li a {text-decoration: none;
+    color: #c63328;
+}
+
+#unique {
+    background-color:black;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}    

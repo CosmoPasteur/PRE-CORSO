@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+        h1 , h3 {
+            font-family: "Prata", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 64px;
+            color: #4c46a8;
+            margin-bottom: 0;
+        }
+        h3 {
+            font-size: 24px;
+            margin: 0;
+            color: #c82e2e;
+        }          
+        
+        body {
+            margin: 0;
+
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .main-section {
+            padding: 20px;
+        }
+
+        .image-container {
+            height: 500px;
+            background-color: transparent;
+            background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/90/08/bb/meraviglioso-specchio.jpg?w=900&h=500&s=1);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100vw;
+            background-position: 100%;            
+        }    
+
+        a {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: italic;
+        }
+
+        h6 {
+            padding: 22px;
+            margin-bottom: 0px;
+            margin-top: 56px;
+            color: white;
+            border-radius: 6px;
+            background: linear-gradient(25deg, #1b12db, #00ff68);
+        }
+
+        .l-correlati{
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 22px;
+            border-bottom: 1px solid #dfdfdf;            
+        }
+
+        ul li a {text-decoration: none;
+            color: #1b12db;}
+
+        #unique {
+            background-color:black;
+            text-decoration: none;
+            color: white;
+            padding: 16px;
+            text-align: center;
+        }    
+
+    </style>
+</head>
+<body>
+   <div class="main-section">
+
+    <div class="image-container">
+
+    </div>
+            
+    <h1>Lago Checrouit</h1>
+    <h3>Tra Italia e Francia.</h3>
+
+    <p>
+        Author: 
+        <a href="https://www.tripadvisor.it/">tripadvisor</a>  
+    </p>
+
+    <h6>Luoghi correlati</h6>
+
+    <ul class="l-correlati">
+        <li><a href="Val Ferret.html">Val Ferret</a></li>
+        <li><a href="Val Veny.html">Val Veny</a></li>
+        <li><a href="Giardino Botanico Alpino Saussurea.html">Giardino Botanico Alpino Saussurea</a></li>
+        <li><a href="Santuario di Notre-Dame de Guérison.html">Santuario di Notre-Dame de Guérison</a></li>
+        <li><a href="Index.html">Skyway Monte Bianco</a></li>
+    </ul>
+
+    
+    
+   </div>
+   
+   <footer id="unique">
+    <ul>        
+        <li><a href="Index.html">Hompage</a></li>        
+    </ul>
+   </footer>
+    
+   
+</body>
+</html>
